@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background: #25ddee;
+}
+
+.container {
+    width: 40rem;
+    border: 1px solid gray;
+    padding: 1rem;
+    background: white;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.count {
+    font-size: 4rem;
+    padding: 0 1rem;
+    text-align: center;
+}
+
+input[type="text"] {
+    display: block;
+    font-size: 16px;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    outline: none;
+}
