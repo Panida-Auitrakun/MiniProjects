@@ -1,6 +1,3 @@
-/*const hrs = document.querySelector(".hrs")
-const min = document.querySelector(".min")
-const sec = document.querySelector(".sec")*/
 
 let hrs = document.getElementById("hrs");
 let min = document.getElementById("min");
