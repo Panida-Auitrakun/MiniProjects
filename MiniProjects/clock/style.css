@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600&display=swap');
+* {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --prim-color: #000;
+    --sec-color:#fff;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.time {
+    font-size: 60px;
+}
+
+.toggle {
+    cursor: pointer;
+    background: var(--prim-color);
+    color: var(--sec-color);
+    border: 0;
+    border-radius: 10px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 500px;
+}
+
+html.dark {
+    --prim-color: #fff;
+    --sec-color:#000;
+}
+html.dark {
+    background: #111;
+    color: var(--prim-color);
+}
+html { /* หน่วงเวลาตอนสลับโหมด */
+    transition: all 1s ease-in;
+}
