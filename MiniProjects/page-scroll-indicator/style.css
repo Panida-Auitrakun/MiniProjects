@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@300;400;600&family=Clicker+Script&family=Poppins:wght@200;300;400;500;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Anuphan', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+
+}
+
+p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    width: 100%;
+    background: #333;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
